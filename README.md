@@ -1,117 +1,75 @@
-# OIBSIP
-# 📚 Digital Library Management System
+🚀 OIBSIP – Java Development Projects
 
-A Java-based application to manage a library's books, members, and borrowing activity digitally. It replaces manual registers with a searchable catalogue, issue/return tracking, and automatic fine calculation.
+Welcome to my GitHub repository!
 
-## ✨ Features
+This repository contains my Java development projects, created to improve my programming skills, understand real-world applications, and gain practical development experience.
 
-**Admin / Librarian**
-- Add, update, delete, and search books
-- Manage member records
-- Issue and return books with due-date tracking
-- Automatic fine calculation for overdue books
-- View issued books and overdue reports
+👨‍💻 About Me
 
-**Member**
-- Search books by title, author, or category
-- Check book availability
-- View borrowing history and pending fines
+I am Ashutosh Das, a Java developer interested in software development and problem-solving.
 
-**General**
-- Login with role-based access (Admin, Librarian, Member)
-- Data stored in a database using JDBC
+📂 Projects
 
-## 🛠 Tech Stack
+1. 📚 Digital Library Management System
 
-| Component  | Technology                        |
-|------------|-----------------------------------|
-| Language   | Java 25            |
-| GUI        | Java Swing / JavaFX               |
-| Database   | MySQL                             |
-| Connectivity | JDBC (MySQL Connector/J)        |
-| IDE        | Eclipse IDE                       |
-| Version Control | Git, GitHub                  |
+A Java-based application designed to manage library operations digitally.
 
-## 📁 Project Structure
+Key Features:
 
-```
-DigitalLibraryManagementSystem/
-├── src/
-│   ├── model/        # Book, Member, Issue classes
-│   ├── dao/          # Database access classes
-│   ├── ui/           # Swing/JavaFX screens
-│   ├── util/         # DBConnection and helpers
-│   └── Main.java
-├── lib/
-│   └── mysql-connector-j.jar
-├── database/
-│   └── library_db.sql
-└── README.md
-```
+- Add, update, delete, and search books.
+- Manage library members.
+- Track book issue and return activities.
+- Automatic fine calculation.
 
-## 🚀 Getting Started
+Technology: Java
 
-### Prerequisites
-- JDK 17 or later
-- Eclipse IDE
-- MySQL Server 8 or later
-- MySQL Connector/J (JDBC driver)
+📁 "View Project" (./LibraryMS)
 
-### Setup in Eclipse
+📖 "Project Documentation" (./LibraryMS/README.md)
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/digital-library-management-system.git
-   ```
+---
 
-2. **Import into Eclipse**
-   - Open Eclipse → `File` → `Import` → `General` → `Existing Projects into Workspace`
-   - Select the cloned folder and click `Finish`
+2. 🎮 Number Guessing Game
 
-3. **Set up the database**
-   - Open MySQL and run the script:
-   ```sql
-   source database/library_db.sql;
-   ```
+A beginner-friendly Java game where users guess a randomly generated number with helpful hints.
 
-4. **Add the JDBC driver**
-   - Right-click the project → `Build Path` → `Configure Build Path`
-   - `Libraries` → `Add External JARs` → select `mysql-connector-j.jar`
+Key Features:
 
-5. **Configure the database connection**
+- Random number generation.
+- Interactive gameplay.
+- Hints for guessing.
+- Attempt tracking.
+- Different difficulty levels.
 
-   Open `src/util/DBConnection.java` and update your details:
-   ```java
-   private static final String URL = "jdbc:mysql://localhost:3306/library_db";
-   private static final String USER = "root";
-   private static final String PASSWORD = "your_password";
-   ```
+Technology: Java
 
-6. **Run the project**
-   - Right-click `Main.java` → `Run As` → `Java Application`
+📁 "View Project" (./NumberGuessingGame)
 
-## 🗄 Database Tables
+📖 "Project Documentation" (./NumberGuessingGame/README.md)
 
-| Table      | Description                                  |
-|------------|----------------------------------------------|
-| users      | Login details and roles                      |
-| books      | Title, author, ISBN, category, quantity      |
-| members    | Member details                               |
-| issues     | Issue date, due date, return date, status    |
-| fines      | Fine amount and payment status               |
+---
 
-## 💡 Usage
+🛠️ Technologies & Skills
 
-1. Log in using your admin credentials.
-2. Add books and register members.
-3. Issue a book to a member and set the due date.
-4. Process the return; any fine is calculated automatically.
+- Java
+- Core Java
+- Object-Oriented Programming (OOP)
+- Problem Solving
+- Git & GitHub
 
-## 🗺 Future Improvements
+🎯 Learning Objectives
 
-- Email/SMS reminders for due dates
-- Barcode scanning for books
-- Online reservation system
-- Reports export to PDF/Excel
+- Improve Java programming skills.
+- Build practical projects.
+- Understand software development concepts.
+- Develop logical thinking and problem-solving abilities.
+
+📬 Connect With Me
+
+GitHub: "Ashutosh Das" (https://github.com/Ashutoshdas03)
+
+---
+
+⭐ Thank you for visiting my repository!
 
 
